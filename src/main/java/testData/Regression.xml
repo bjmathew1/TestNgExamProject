@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression">
+
+		<test name="ListItemsTest">
+			<parameter name="categoryName" value="TestNgExamBeena" />
+			<parameter name="itemName" value="ItemTestNgBeena" />
+			<parameter name="duplicateCategoryPageValidText" value="The category you want to add already exists: TestNgExamBeena" />
+			<parameter name="monthName" value=""/>
+			
+			<classes>
+				<class name="test.ListItemsTest" />
+
+			</classes>
+		</test>
+</suite>
